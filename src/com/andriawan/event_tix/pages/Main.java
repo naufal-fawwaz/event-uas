@@ -6,7 +6,7 @@ package com.andriawan.event_tix.pages;
 
 import javax.swing.JComponent;
 
-import com.andriawan.event_tix.pages.fragments.form_1.Form1;
+import com.andriawan.event_tix.pages.fragments.transactions.TransactionPage;
 import com.andriawan.event_tix.pages.fragments.home.HomePage;
 
 /**
@@ -31,7 +31,7 @@ public class Main extends javax.swing.JFrame {
                     setForm(homePage);
                     break;
                 case 1:
-                    setForm(new Form1());
+                    setForm(new TransactionPage(mainPanel));
                     break;
                 case 2:
                     setForm(homePage);
@@ -75,8 +75,8 @@ public class Main extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(sidebarMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 706, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 714, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
