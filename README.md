@@ -3,7 +3,7 @@ Blablabla
 
 ## Pembagian Tugas
 #### Naufal Fawwaz Andriawan
-- [ ] Transaction Page - User
+- [v] Transaction Page - User
 
 #### Nassya Putri Riyani
 - [ ] Event List (Home Page) - User
